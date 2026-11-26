@@ -8,12 +8,16 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <!-- Form to accept user input for resizing the grid -->
     <form id="grid-form">
       <label for="gridNo">Enter grids for both side:</label>
       <input type="number" id="gridNo" name="grid_no" value="" />
-      <button type="submit">Resize</button>
+      <button type="submit" id="submit_btn">Resize</button>
     </form>
+
+    <!-- Main container where the Etch-a-Sketch grid is generated -->
     <div id="container"></div>
+
     <script src="js/script.js"></script>
   </body>
 </html>
